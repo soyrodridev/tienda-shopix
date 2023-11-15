@@ -1,0 +1,23 @@
+.botoncontainers{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 1rem auto;
+    gap: .5rem;
+    justify-content: center;
+}
+
+.boton{
+    padding: 10px 10px;
+    flex: 1 1 1 1 33.33%;
+    border: 1px solid #181818;
+    border-radius: 30px;
+    color: black;
+}
+
+.boton:hover{
+    background: #181818;
+    color: white;
+    transition: all .3s ease;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, .5);
+}

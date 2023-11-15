@@ -1,0 +1,30 @@
+.listmenu{
+    position: absolute;
+    right: 2rem;
+    top: 4.1rem;
+    padding: 1rem;
+    width: 20rem;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .5);
+    color: #181818;
+    border-radius: 10px;
+}
+.listmenu li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: inherit;
+    width: 100%;
+    height: 30px;
+    cursor: pointer;
+}
+.listmenu li:hover{
+    background: #e6e4e4;
+}
+
+.linkmenu{
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    font-weight: 500;
+}

@@ -1,0 +1,63 @@
+.footer_container{
+    background-color: var(--gris2);
+    padding: 2rem 1rem;
+    width: 100%;
+    
+    position: absolute;
+    bottom: 0;
+}
+.footer_container h2{
+    font-size: 2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+}
+
+.list{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 1300px;
+    margin: 1rem auto;
+}
+
+.linkli{
+    color: white;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+.redes{
+    margin-top: 1rem;
+}
+.redes h3{
+    font-weight: 600;
+    font-size: 1.1rem;
+    text-align: center;
+    margin-bottom: .5rem;
+    color: white;
+    padding-bottom: 2px;
+    border-bottom: 1px solid white;
+}
+.pack{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (min-width: 720px){
+    .list{
+        flex-direction: row;
+        text-align: initial;
+        justify-content: space-around;
+        gap: 1rem;
+        max-width: 800px;
+    }
+    .linkli{
+        font-size: 1.3rem;
+    }
+}

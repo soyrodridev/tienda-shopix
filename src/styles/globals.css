@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root {
+    --gris3: #2D3142;
+    --gris2: #4F5D75;
+    --gris1: #BFC0C0;
+    --blanco: #FFFFFF;
+    --naranja: #EF8354;
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+  background-color: #fff;
+  position: relative;
+  min-height: 100vh;
+  padding-bottom: 26em;
+}

@@ -1,0 +1,20 @@
+.navbarcontainer{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    max-width: 1500px;
+    padding: 1rem ;
+    align-items: center;
+    gap: 1rem;
+}
+
+.buscador{
+    width: 1.9rem;
+}
+.menu{
+    width: 3rem;
+}
+
+.carrito{
+    width: 2.3rem;
+}

@@ -1,0 +1,54 @@
+.container{
+    width: 100%;
+    padding: .3rem;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.imageproduct{
+    width: 50%;
+    object-fit: scale-down;
+    object-position: center center;
+
+}
+
+.containerImage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.textcontain{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    margin-top: .5rem;
+}
+.titulo{
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-top: 1rem;
+}
+.categoria{
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: #bf1c1c;
+    text-transform: uppercase;
+}
+
+.btn{
+    width: 100%;
+    text-align: center;
+    background-color: #181818;
+    color: white;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+
+@media screen and (min-width: 720px){
+    .container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
